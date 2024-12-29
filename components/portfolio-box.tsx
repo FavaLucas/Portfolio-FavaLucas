@@ -24,10 +24,10 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
       </h3>
       <Image src={image} alt="Image product" width={200} height={200} className="w-full md:w-[200px] rounded-2xl h-auto" />
 
-      <div className="flex gap-5 mt-5">
-        <Link href={urlGithub} target="_blank" className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80">GitHub</Link>
+      <div className="flex items-center justify-center gap-5 mt-5">
+        <Link href={urlGithub} target="_blank" className="p-2 transition duration-150 rounded-lg bg-secondary hover:bg-secondary/80">GitHub</Link>
 
-        <Link href={urlDemo} target="_blank" className="p-2 transition duration-150 rounded-lg bg-secondary hover:bg-secondary/80">Demo</Link>
+        {/* <Link href={urlDemo} target="_blank" className="p-2 transition duration-150 rounded-lg bg-secondary hover:bg-secondary/80">Demo</Link> */}
 
       </div>
 

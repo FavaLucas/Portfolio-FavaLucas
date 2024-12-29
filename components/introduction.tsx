@@ -31,12 +31,12 @@ const Introduction = () => {
             </p>
 
             <div className='flex items-center justify-center gap-3 md:justify-start md:gap-10'>
-              <Link href='/projects' className='px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50'>
+              <Link href='https://github.com/FavaLucas' className='px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl font-bold hover:shadow-white/50'>
                 Ver proyectos
               </Link>
 
-              <Link href='/contact' className='px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary'>
-                Contacta conmigo
+              <Link href='#' className='px-3 py-2 transition-all border-2 cursor-pointer text-secondary font-bold border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary'>
+                contacto@favalucas.ar
               </Link>
 
             </div>

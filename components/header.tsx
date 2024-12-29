@@ -19,7 +19,7 @@ const Header = () => {
             {socialNetworks.map(({ logo, src, id }) => (
               <Link key={id}
                 href={src}
-                target="_blank"
+                target={"_blank"}
                 className="transition-all duration-300 hover:text-secondary"
               >
                 {logo}
