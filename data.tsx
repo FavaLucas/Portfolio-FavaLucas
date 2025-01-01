@@ -132,7 +132,7 @@ export const skillsData = [
     },
     {
         title: "Backend",
-        description: "Node.js, NestJS, REST APIs, Python, Java, TypeORM, Mongoose, NetBeans" ,
+        description: "Node.js, NestJS, REST APIs, Python, Java, TypeORM, Mongoose, NetBeans",
         icon: <Server />,
     },
     {
@@ -202,7 +202,7 @@ export const dataPortfolio = [
     },
     {
         id: 3,
-        title: "CRUD Afiliados",
+        title: "CRUD en Python",
         image: "/image-3.jpg",
         urlGithub: "https://github.com/FavaLucas/CRUD-de-Afiliados-en-Python.git",
         urlDemo: "#!",
@@ -214,27 +214,27 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/FavaLucas/Web-de-Empleos.git",
         urlDemo: "#!",
     },
-    // {
-    //     id: 5,
-    //     title: "Webs Impactantes",
-    //     image: "/image-5.jpg",
-    //     urlGithub: "#!",
-    //     urlDemo: "#!",
-    // },
-    // {
-    //     id: 6,
-    //     title: "Web Dinámica",
-    //     image: "/image-6.jpg",
-    //     urlGithub: "#!",
-    //     urlDemo: "#!",
-    // },
-    // {
-    //     id: 7,
-    //     title: "Dark Web ",
-    //     image: "/image-7.jpg",
-    //     urlGithub: "#!",
-    //     urlDemo: "#!",
-    // },
+    {
+        id: 5,
+        title: "WikiMusic",
+        image: "/image-5.jpg",
+        urlGithub: "https://github.com/FavaLucas/Wiki-Musik.git",
+        urlDemo: "#!",
+    },
+    {
+        id: 6,
+        title: "Web Estatica",
+        image: "/image-6.jpg",
+        urlGithub: "https://github.com/FavaLucas/TP-Final.git",
+        urlDemo: "#!",
+    },
+    {
+        id: 7,
+        title: "To-Do List ",
+        image: "/image-7.jpg",
+        urlGithub: "https://github.com/FavaLucas/TP-Final.git",
+        urlDemo: "#!",
+    },
     // {
     //     id: 8,
     //     title: "E-commerce web",
